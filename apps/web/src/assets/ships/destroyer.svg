@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64" role="img" aria-label="Destroyer">
+  <defs>
+    <linearGradient id="hull" x1="0" x2="1">
+      <stop offset="0" stop-color="#243441"/>
+      <stop offset=".5" stop-color="#71848c"/>
+      <stop offset="1" stop-color="#20303a"/>
+    </linearGradient>
+    <filter id="shadow" x="-9%" y="-35%" width="118%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#062532" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <path d="M10 32 27 16h73l18 16-18 16H27z" fill="url(#hull)" filter="url(#shadow)"/>
+  <path d="M30 21h65l11 11-11 11H30L20 32z" fill="#304853"/>
+  <rect x="55" y="21" width="23" height="22" rx="5" fill="#9aa8aa"/>
+  <path d="M45 32H26m57 0h20" stroke="#d7dddd" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="49" cy="32" r="7" fill="#b5c0c2"/>
+  <circle cx="80" cy="32" r="6" fill="#b5c0c2"/>
+  <path d="M67 21V12m0 0 8 4" stroke="#d7dddd" stroke-width="2" stroke-linecap="round"/>
+</svg>

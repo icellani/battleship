@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 64" role="img" aria-label="Cruzador">
+  <defs>
+    <linearGradient id="hull" x1="0" x2="1">
+      <stop offset="0" stop-color="#263542"/>
+      <stop offset=".5" stop-color="#74868f"/>
+      <stop offset="1" stop-color="#22313c"/>
+    </linearGradient>
+    <filter id="shadow" x="-7%" y="-30%" width="114%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#062532" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <path d="M13 32 34 14h121l24 18-24 18H34z" fill="url(#hull)" filter="url(#shadow)"/>
+  <path d="M36 19h113l16 13-16 13H36L24 32z" fill="#304854"/>
+  <rect x="79" y="20" width="33" height="24" rx="5" fill="#9caaac"/>
+  <rect x="90" y="14" width="12" height="12" rx="3" fill="#d2dad9"/>
+  <g stroke="#d5dedf" stroke-linecap="round" stroke-width="4">
+    <path d="M55 26H35"/>
+    <path d="M137 38h20"/>
+  </g>
+  <g fill="#b6c1c3">
+    <circle cx="62" cy="26" r="8"/>
+    <circle cx="130" cy="38" r="8"/>
+  </g>
+  <path d="M96 14V8m-6 3 6-3 7 4" stroke="#d2dad9" stroke-width="2" stroke-linecap="round"/>
+</svg>
